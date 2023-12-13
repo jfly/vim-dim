@@ -1,3 +1,8 @@
+**This fork of
+[jeffkreeftmeijer/vim-dim](https://github.com/jeffkreeftmeijer/vim-dim)
+contains fixes that work with neovim's updated default colorscheme.
+See https://github.com/neovim/neovim/issues/26378 for details.**
+
 # Dim
 
 **Dim** (/dɪm/; a contraction of **Default IMproved**) is a clone of Vim’s default colorscheme, with some improvements:
