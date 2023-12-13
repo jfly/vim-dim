@@ -1,7 +1,7 @@
 " General
 hi Conceal      guifg=LightGrey guibg=DarkGrey guisp=NONE gui=NONE         ctermfg=LightGrey ctermbg=DarkGrey cterm=NONE
-hi Cursor       guifg=bg        guibg=fg       guisp=NONE gui=NONE         ctermfg=bg        ctermbg=fg       cterm=NONE
-hi lCursor      guifg=bg        guibg=fg       guisp=NONE gui=NONE         ctermfg=bg        ctermbg=fg       cterm=NONE
+"<<<< hi Cursor       guifg=bg        guibg=fg       guisp=NONE gui=NONE         ctermfg=bg        ctermbg=fg       cterm=NONE
+"<<<< hi lCursor      guifg=bg        guibg=fg       guisp=NONE gui=NONE         ctermfg=bg        ctermbg=fg       cterm=NONE
 hi DiffText     guifg=NONE      guibg=Red      guisp=NONE gui=bold         ctermfg=NONE      ctermbg=Red      cterm=bold
 hi ErrorMsg     guifg=White     guibg=Red      guisp=NONE gui=NONE         ctermfg=White     ctermbg=DarkRed  cterm=NONE
 hi IncSearch    guifg=NONE      guibg=NONE     guisp=NONE gui=reverse      ctermfg=NONE      ctermbg=NONE     cterm=reverse
