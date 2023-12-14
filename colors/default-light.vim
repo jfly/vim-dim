@@ -33,7 +33,10 @@ hi! link PmenuExtraSel PmenuSel
 hi! link Substitute Search
 hi! link Whitespace NonText
 hi! link MsgSeparator StatusLine
-hi! link NormalFloat Pmenu
+
+"<<< hi! link NormalFloat Pmenu
+hi! link NormalFloat Normal
+
 hi! link FloatBorder WinSeparator
 hi! link FloatTitle Title
 hi! link FloatFooter Title
@@ -87,7 +90,10 @@ hi! link DiagnosticVirtualTextOk DiagnosticOk
 hi! link DiagnosticFloatingError DiagnosticError
 hi! link DiagnosticFloatingWarn DiagnosticWarn
 hi! link DiagnosticFloatingInfo DiagnosticInfo
-hi! link DiagnosticFloatingHint DiagnosticHint
+
+"<<< hi! link DiagnosticFloatingHint DiagnosticHint
+hi DiagnosticFloatingHint ctermfg=NONE
+
 hi! link DiagnosticFloatingOk DiagnosticOk
 hi! link DiagnosticSignError DiagnosticError
 hi! link DiagnosticSignWarn DiagnosticWarn
