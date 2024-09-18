@@ -74,3 +74,12 @@ let g:fzf_colors = { 'fg':      ['fg', 'DimFzfFg'],
                    \ 'prompt':  ['fg', 'DimFzfPrompt'],
                    \ 'pointer': ['fg', 'DimFzfPointer'],
                    \ 'marker':  ['fg', 'DimFzfMarker']}
+
+" Tweak the gutter color so it stands out from the background.
+highlight! LineNr ctermbg=8
+highlight! link SignColumn LineNr
+
+" Link diffRemoved and diffAdded to saner values
+" (this is basically copied from https://github.com/dracula/vim/issues/46)
+highlight! link diffRemoved DiffDelete
+highlight! link diffAdded DiffAdd
