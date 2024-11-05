@@ -6,7 +6,10 @@ hi DiffText     guifg=NONE      guibg=Red      guisp=NONE gui=bold         cterm
 hi ErrorMsg     guifg=White     guibg=Red      guisp=NONE gui=NONE         ctermfg=White     ctermbg=DarkRed  cterm=NONE
 hi IncSearch    guifg=NONE      guibg=NONE     guisp=NONE gui=reverse      ctermfg=NONE      ctermbg=NONE     cterm=reverse
 hi ModeMsg      guifg=NONE      guibg=NONE     guisp=NONE gui=bold         ctermfg=NONE      ctermbg=NONE     cterm=bold
-hi NonText      guifg=Blue      guibg=NONE     guisp=NONE gui=bold         ctermfg=Blue      ctermbg=NONE     cterm=NONE
+"<<< hi NonText      guifg=Blue      guibg=NONE     guisp=NONE gui=bold         ctermfg=Blue      ctermbg=NONE     cterm=NONE
+" Just trying to set LspInlayHint here, which (currently) links to NonText. If
+" this causes problems, maybe unlink them?
+hi NonText      guifg=Blue      guibg=NONE     guisp=NONE gui=bold         ctermfg=LightGrey      ctermbg=NONE     cterm=italic
 hi Normal       guifg=NONE      guibg=NONE     guisp=NONE gui=NONE         ctermfg=NONE      ctermbg=NONE     cterm=NONE
 hi PmenuSbar    guifg=NONE      guibg=Grey     guisp=NONE gui=NONE         ctermfg=NONE      ctermbg=Grey     cterm=NONE
 hi StatusLine   guifg=NONE      guibg=NONE     guisp=NONE gui=reverse,bold ctermfg=NONE      ctermbg=NONE     cterm=reverse,bold
@@ -220,7 +223,7 @@ hi Ignore       guifg=bg        guibg=NONE         guisp=NONE     gui=NONE      
 """"""""""""""""""""""""""""""""
 highlight SpecialKey     ctermfg=4
 highlight TermCursor     cterm=reverse
-highlight NonText        ctermfg=12
+"<<< highlight NonText        ctermfg=12
 highlight Directory      ctermfg=4
 highlight ErrorMsg       ctermfg=15 ctermbg=1
 highlight IncSearch      cterm=reverse
