@@ -85,11 +85,16 @@ hi DiagnosticUnderlineWarn  guifg=NONE       guibg=NONE guisp=Orange     gui=und
 hi DiagnosticUnderlineInfo  guifg=NONE       guibg=NONE guisp=LightBlue  gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
 hi DiagnosticUnderlineHint  guifg=NONE       guibg=NONE guisp=LightGrey  gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
 hi DiagnosticUnderlineOk    guifg=NONE       guibg=NONE guisp=LightGreen gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
-hi! link DiagnosticVirtualTextError DiagnosticError
-hi! link DiagnosticVirtualTextWarn DiagnosticWarn
-hi! link DiagnosticVirtualTextInfo DiagnosticInfo
-hi! link DiagnosticVirtualTextHint DiagnosticHint
-hi! link DiagnosticVirtualTextOk DiagnosticOk
+"<<< hi! link DiagnosticVirtualTextError DiagnosticError
+hi DiagnosticVirtualTextError          guifg=Red        guibg=NONE guisp=NONE       gui=NONE      ctermfg=1    ctermbg=None cterm=underdashed
+"<<< hi! link DiagnosticVirtualTextWarn DiagnosticWarn
+hi DiagnosticVirtualTextError          guifg=Orange        guibg=NONE guisp=NONE       gui=NONE      ctermfg=3    ctermbg=None cterm=underdashed
+"<<< hi! link DiagnosticVirtualTextInfo DiagnosticInfo
+hi DiagnosticVirtualTextError          guifg=LightBlue        guibg=NONE guisp=NONE       gui=NONE      ctermfg=4    ctermbg=None cterm=underdashed
+"<<< hi! link DiagnosticVirtualTextHint DiagnosticHint
+hi DiagnosticVirtualTextError           guifg=None  guibg=NONE guisp=NONE       gui=NONE      ctermfg=7    ctermbg=None cterm=underdashed
+"<<< hi! link DiagnosticVirtualTextOk DiagnosticOk
+hi DiagnosticVirtualTextError             guifg=LightGreen guibg=NONE guisp=NONE       gui=NONE      ctermfg=10   ctermbg=None cterm=underdashed
 hi! link DiagnosticFloatingError DiagnosticError
 hi! link DiagnosticFloatingWarn DiagnosticWarn
 hi! link DiagnosticFloatingInfo DiagnosticInfo
