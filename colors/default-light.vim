@@ -14,7 +14,8 @@ hi Normal       guifg=NONE      guibg=NONE     guisp=NONE gui=NONE         cterm
 hi PmenuSbar    guifg=NONE      guibg=Grey     guisp=NONE gui=NONE         ctermfg=NONE      ctermbg=Grey     cterm=NONE
 hi StatusLine   guifg=NONE      guibg=NONE     guisp=NONE gui=reverse,bold ctermfg=NONE      ctermbg=NONE     cterm=reverse,bold
 hi StatusLineNC guifg=NONE      guibg=NONE     guisp=NONE gui=reverse      ctermfg=NONE      ctermbg=NONE     cterm=reverse
-hi TabLineFill  guifg=NONE      guibg=NONE     guisp=NONE gui=reverse      ctermfg=NONE      ctermbg=NONE     cterm=reverse
+"<<< hi TabLineFill  guifg=NONE      guibg=NONE     guisp=NONE gui=reverse      ctermfg=NONE      ctermbg=NONE     cterm=reverse
+hi TabLineFill  guifg=NONE      guibg=NONE     guisp=NONE gui=reverse      ctermfg=NONE      ctermbg=NONE     cterm=NONE
 hi TabLineSel   guifg=NONE      guibg=NONE     guisp=NONE gui=bold         ctermfg=NONE      ctermbg=NONE     cterm=bold
 hi TermCursor   guifg=NONE      guibg=NONE     guisp=NONE gui=reverse      ctermfg=NONE      ctermbg=NONE     cterm=reverse
 hi WinBar       guifg=NONE      guibg=NONE     guisp=NONE gui=bold         ctermfg=NONE      ctermbg=NONE     cterm=bold
@@ -246,7 +247,8 @@ highlight PmenuSbar      ctermbg=8
 highlight PmenuThumb     ctermbg=0
 highlight TabLine        cterm=underline ctermfg=0 ctermbg=7
 highlight TabLineSel     cterm=bold
-highlight TabLineFill    cterm=reverse
+"<<< highlight TabLineFill    cterm=reverse
+highlight TabLineFill    cterm=NONE
 highlight CursorColumn   ctermbg=7
 highlight CursorLine     cterm=underline
 highlight MatchParen     ctermbg=14
